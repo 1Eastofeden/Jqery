@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-group-text {
+    position: relative;
+    background-color: transparent;
+}
+
+.input-group-text::placeholder {
+    font-weight: bold;
+}
+
+button {
+    position: relative;
+    width: 206px;
+    background-color: grey;
+    color: white;
+    top: 10px;
+    border-color: grey;
+}
+
+a {
+    position: relative;
+    bottom: 40px;
+    font-size: 30px;
+    left: 149px;
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    color: black;
+}
+
+a::after {
+    color: grey;
+}
