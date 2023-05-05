@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.h42012 {
+    position: relative;
+    float: left;
+    right: 10px;
+}
+
+.h42013 {
+    position: relative;
+    float: left;
+}
+
+.h42014 {
+    position: relative;
+    float: left;
+    left: 10px;
+}
+
+select {
+    position: relative;
+    bottom: 320px;
+    left: 7px;
+}
